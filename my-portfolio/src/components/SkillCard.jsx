@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 
 function SkillCard(props) {
     return (
-        <div className='flex flex-col items-center justify-center m-2 shadow-2xl'>
+        <div className='flex flex-col items-center justify-center m-2 shadow-md shadow-black hover:shadow-2xl hover:shadow-black'>
             <img className="w-20 h-20" src={props.icon} alt={props.name} />
             <p className="text-md text-slate-300 my-2">{props.name}</p>
         </div>
